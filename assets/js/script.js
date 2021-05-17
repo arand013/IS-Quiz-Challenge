@@ -55,18 +55,18 @@ if (title.innerHTML === "Highscores") {
     theTable();
 }
 
-// set initial timer value and fire off two functions
+// this function sets timer value and triggers two functions
 function quizBegin() {
     timeLeft = 60
     beginTimer();
     initQ();
 }
-//  function changes timer display every secCounter (second)
+//  this function changes timer display every (second)
 function beginTimer() {
     timer.innerHTML = (timeLeft);
     quizTime = setInterval(secCounter, 1000);
 }
-//  function equates a secCounter to a second and determines when timer reaches zero
+//  this function equates to a second, then identifies when timer is at 0
 function secCounter() {
     if (timeLeft !== 0) {
         timeLeft--
@@ -78,13 +78,13 @@ function secCounter() {
     }
     return;
 }
-//  function hides initial elements and shows quiz relevant ones, then starts main quiz function
+//  this function hides initial elements, Moves on to display quiz.
 function initQ() {
     document.querySelectorAll(".main").forEach(main => { main.style.display = "none" })
     document.querySelectorAll(".quiz").forEach(quiz => { quiz.style.display = "initial" })
     quiz(questionNum);
 }
-//  function checks if there are anymore questions and if not ends the quiz
+//  this function checks if there are anymore questions or else will end quiz
 function quiz() {
     if (questionNum >= theQuestions.length) {
         quizOver();
@@ -97,7 +97,7 @@ function quiz() {
         answerBtn4.innerHTML = (theQuestions[questionNum].choices[3])
     }
 }
-//  function checks whether or not answer is the correct one
+//  this function checks for correct or wrong answers
 function answerCheck(btnId) {
     if ((document.getElementById(btnId).innerHTML) === (theQuestions[questionNum].answer)) {
         rightAnswer();
@@ -109,20 +109,20 @@ function answerCheck(btnId) {
     }
     quiz(questionNum);
 }
-//  this function runs when answer is right
+//  function runs when answer is right
 function rightAnswer() {
     score = timeLeft
     feedback.innerHTML = ("Correct");
     setTimeout(function () { feedback.innerHTML = (""); }, 800)
 }
-//  this function runs when answer is wrong
+//  function runs when answer is wrong
 function wrongAnswer() {
     timeLeft = (timeLeft - 15)
     feedback.innerHTML = ("Wrong");
     setTimeout(function () { feedback.innerHTML = (""); }, 800)
 }
 
-//  this function generates the end screen and allows user to submit initials with their score
+//  this function moves user to the end screen, allows user to submit initials with their score
 function quizOver() {
     document.querySelectorAll(".quiz").forEach(quiz => { quiz.style.display = "none" })
     var content = document.getElementById('theBody')
@@ -145,7 +145,7 @@ function quizOver() {
     clearInterval(quizTime)
 }
 
-// this function renders the table on the highscore table with the scores from local storage
+// function displays the table on the highscore table along with scores from local storage
 function theTable() {
     var tbody = document.getElementById("tableBody")
     for (let i = 0; i < localStorage.length; i++) {
@@ -154,7 +154,7 @@ function theTable() {
         tbody.insertAdjacentHTML('afterbegin', '<tr class="scores"><td>' + userName + ' - ' + userScore + '</td></tr>')
     }
 }
-//  this function has the clear highscores button work by clearing local storage and re-rendering table
+// function shows clear highscores button work by clearing local storage and reload game button
 function clearStorage() {
     localStorage.clear();
     window.location.reload();
