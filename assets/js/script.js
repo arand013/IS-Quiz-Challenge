@@ -17,7 +17,7 @@ var score = 0
 var theQuestions = [
     {
         title: "Where is the correct place to insert a JavaScript",
-        choices: ["Both the head and the body section are corect", "the body section", "the head section", " In a CSS file only"],
+        choices: ["the head section", "the body section", "Both the head and the body section are corect", " In a CSS file only"],
         answer: "Both the head and the body section are corect"
     },
     {
