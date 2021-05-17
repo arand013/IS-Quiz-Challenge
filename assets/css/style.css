@@ -1,9 +1,9 @@
-#timeDisplay {
+#counter {
     display: inline-block;
     font-size: 1.50rem;
 }
 
-.content {
+.text {
     text-align: center;
     padding-top: 5%;
 }
@@ -12,11 +12,7 @@
     line-height: 3;
 }
 
-.higher {
-    text-align: initial;
-}
-
-.intro {
+.title {
     padding: 1%;
     display: inline-block;
     width: 60%;
@@ -27,13 +23,13 @@
 }
 
 .btn {
-    background-color: blueviolet;
-    border-color: blueviolet;
+    background-color: rgb(233, 176, 53);
+    border-color: rgb(240, 132, 32);
     display: inline-block;
     margin: 1%;
 }
 
-.left {
+.shift {
     text-align: left;
 }
 
@@ -45,7 +41,7 @@
     display: none;
 }
 
-#feedback {
+#response {
     margin-left: 25%;
     color: #bbbbbb;
     font-style: italic;
