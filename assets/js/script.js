@@ -23,7 +23,7 @@ var theQuestions = [
     {
         title: "What is often used for debugging issues in the console?",
         choices: ["strings", "for loops", "terminal/bash", "console.log"],
-        answer: "all of the above"
+        answer: "console.log`"
     },
     {
         title: "The condition in an if / else statement is enclosed within ____.",
