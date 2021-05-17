@@ -122,3 +122,40 @@ function wrongAnswer() {
     setTimeout(function () { feedback.innerHTML = (""); }, 800)
 }
 
+//  this function generates the end screen and allows user to submit initials with their score
+function quizOver() {
+    document.querySelectorAll(".quiz").forEach(quiz => { quiz.style.display = "none" })
+    var content = document.getElementById('theBody')
+    var done = document.getElementById("done")
+    var submit = document.getElementById("submit")
+
+    timer.innerHTML = (0)
+
+    content.insertAdjacentHTML('afterbegin', '<h1 id="done">All Done!</h1> <button id="submit" class="btn btn-danger">Submit</button> <input id="userScore"> - Enter Initials</input>');
+
+    var done = document.getElementById("done")
+    done.insertAdjacentHTML('afterend', '<p id="finalScore">Your final score is ' + score + '</p>');
+
+    var submit = document.getElementById("submit")
+    submit.addEventListener("click", function () {
+        var value = document.getElementById('userScore').value;
+        localStorage.setItem(value, score)
+        window.location.href = "highscore.html"
+    });
+    clearInterval(quizTime)
+}
+
+// this function renders the table on the highscore table with the scores from local storage
+function theTable() {
+    var tbody = document.getElementById("tableBody")
+    for (let i = 0; i < localStorage.length; i++) {
+        var userName = localStorage.key(i)
+        var userScore = localStorage.getItem(userName)
+        tbody.insertAdjacentHTML('afterbegin', '<tr class="scores"><td>' + userName + ' - ' + userScore + '</td></tr>')
+    }
+}
+//  this function has the clear highscores button work by clearing local storage and re-rendering table
+function clearStorage() {
+    localStorage.clear();
+    window.location.reload();
+}
