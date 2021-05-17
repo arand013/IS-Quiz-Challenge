@@ -1,6 +1,6 @@
 # Coding-Quiz-Challenge
 
-[link to Password Generator!] https://arand013.github.io/PasswordGenerator/
+[link to the Coding Quiz here!] https://arand013.github.io/Coding-Quiz-Challenge/
 
 
 * GIVEN I need a new, secure password

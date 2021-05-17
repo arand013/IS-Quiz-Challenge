@@ -21,8 +21,8 @@ var theQuestions = [
         answer: "Both the head and the body section are corect"
     },
     {
-        title: "Arrays in Javascript can be used to store",
-        choices: ["numbers and strings", "other arrays", "booleans", "all of the above"],
+        title: "What is often used for debugging issues in the console?",
+        choices: ["strings", "for loops", "terminal/bash", "console.log"],
         answer: "all of the above"
     },
     {
