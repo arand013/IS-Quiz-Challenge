@@ -45,10 +45,7 @@ var theQuestions = [
         choices: ["if (i == 5)", "if i == 5 then", "if i = 5", "if i = 5 then"],
         answer: "Both the head and the body section are corect"
     },
-
-
 ];
-
 
 // this if statment checks current page is on highscore page
 if (title.innerHTML === "Highscores") {
@@ -57,7 +54,7 @@ if (title.innerHTML === "Highscores") {
 
 // this function sets timer value and triggers two functions
 function quizBegin() {
-    timeLeft = 60
+    timeLeft = 80
     beginTimer();
     initQ();
 }
