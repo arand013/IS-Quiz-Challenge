@@ -23,7 +23,7 @@ var theQuestions = [
     {
         title: "What is often used for debugging issues in the console?",
         choices: ["strings", "for loops", "terminal/bash", "console.log"],
-        answer: "console.log`"
+        answer: "console.log"
     },
     {
         title: "The condition in an if / else statement is enclosed within ____.",
@@ -43,7 +43,7 @@ var theQuestions = [
     {
         title: "How to write an IF statement in JavaScript?",
         choices: ["if (i == 5)", "if i == 5 then", "if i = 5", "if i = 5 then"],
-        answer: "Both the head and the body section are corect"
+        answer: "if (i == 5)"
     },
 ];
 
