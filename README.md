@@ -1,6 +1,6 @@
 # Coding-Quiz-Challenge
 
-[link to the Coding Quiz here!] https://arand013.github.io/Coding-Quiz-Challenge/
+[link to the Information Quiz here!] https://arand013.github.io/AA-challenge/
 
 
 * GIVEN I need a new, secure password
