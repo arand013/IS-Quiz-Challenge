@@ -81,3 +81,39 @@ h3.title.main {
     display: flex;
     width: 100px;
 } */
+
+/* Counter Elements */
+
+/* Center child elements */
+.body,
+.website-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* Styles for website counter container */
+.website-counter {
+  background-color: #ff8049;
+  height: 35px;
+  width: 65px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+/* Styles for reset button */
+#reset {
+  border-radius: 30px;
+  margin-top: 20px;
+  background-color: #4aa2c0;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 20px;
+  color: white;
+  border: 0;
+}
