@@ -1,6 +1,6 @@
 # IS-Quiz-Challenge
 
-[link to the Information Quiz here!] https://arand013.github.io/AA-challenge/
+[link to the Information Systems `Quiz here!] https://arand013.github.io/IS-Quiz-Challenge/
 
 
 * I was having trouble finding free online study guide to ISM aka Info Systems. So I created this timed quiz
