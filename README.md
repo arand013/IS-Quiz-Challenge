@@ -5,7 +5,7 @@
 
 * I was having trouble finding free online study guide to ISM aka Info Systems. So I created this timed quiz
 
-1. Click the start button & you choose bewteen light and dark modes! 
+1. Click the start button, choose bewteen light and dark modes! 
 2. A timer starts and quiz begins with questions
 3. Answers add time or take away time
 4. 50 questions total, reach the end. 
