@@ -1,23 +1,18 @@
-# Coding-Quiz-Challenge
+# IS-Quiz-Challenge
 
 [link to the Information Quiz here!] https://arand013.github.io/AA-challenge/
 
 
-* GIVEN I need a new, secure password
-1. WHEN I click the start button 
-* THEN a timer starts and I am presented with a question
-2. WHEN I answer a question
-* THEN I am presented with another question
-3. WHEN I answer a question incorrectly
-* THEN time is subtracted from the clock
-4. WHEN all questions are answered or the timer reaches 0
-* THEN the game is over
-5. WHEN the game is over
-* THEN I can save my initials and score
+* I was having trouble finding free online study guide to ISM aka Info Systems. So I created this timed quiz
+
+1. Click the start button & choose bewteen light and dark modes! 
+2. A timer starts and I am presented with a question
+3. Answers add time or take away time
+4. 50 questions total, reach the end. 
+5. View Highscores
+
 
 ## Construction 
-This coding quiz is generated with:
-
 HTML
 CSS
 JAVASCRIPT

@@ -285,7 +285,7 @@ if (title.innerHTML === "Highscores") {
 
 // this function sets timer value and triggers two functions
 function quizBegin() {
-    timeLeft = 67
+    timeLeft = 180
     beginTimer();
     initQ();
 }
