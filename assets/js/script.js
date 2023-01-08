@@ -396,7 +396,7 @@ function theTable() {
     for (let i = 0; i < localStorage.length; i++) {
         var userName = localStorage.key(i)
         var userScore = localStorage.getItem(userName)
-        tbody.insertAdjacentHTML('afterbegin', '<tr class="scores"><td>' + userName + ' <---> ' + userScore + " %"+'</td></tr>')
+        tbody.insertAdjacentHTML('afterbegin', '<tr class="scores"><td>' + userName + '  <===>  ' + userScore + " % "+'</td></tr>')
     }
 }
 // function shows clear highscores button work by clearing local storage and reload game button
