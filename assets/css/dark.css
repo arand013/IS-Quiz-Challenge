@@ -1,0 +1,155 @@
+html {
+  background-color: rgb(24, 24, 26);
+}
+#wrapper {
+  background-color: rgb(24, 24, 26);
+  transition: 0.8s all;
+}
+#counter {
+  display: inline-block;
+  font-size: 1.50rem;
+  color: white;
+}
+
+.text {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.highscores {
+  line-height: 3;
+}
+
+.title {
+  padding: 1%;
+  display: inline-block;
+  width: 60%;
+}
+
+.center {
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  background-color: rgb(234, 115, 36);
+  border-color: #f6ba07;
+  display: inline-block;
+  margin: 1%;
+  transition:all .3s ease-out; 
+  box-shadow: rgb(235, 101, 12) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.btn:hover  { 
+  box-shadow: #10a7c9 0px 3.3px 6px, rgba(0, 0, 0, 0.22) 0px 6px 6px;
+  
+}
+
+.shift {
+  text-align: left;
+}
+
+.quiz.btn {
+  margin-left: 25%;
+}
+
+.quiz {
+  display: none;
+}
+
+#response {
+  margin-left: 25%;
+  color: #bbbbbb;
+  font-style: italic;
+}
+
+hr {
+  width: 50%;
+  padding: 1% auto;
+}
+
+h1 { 
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  box-shadow: rgba(54, 249, 15, 0.395) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+
+}
+
+h2 { 
+  border-radius: 25px;
+  padding: 20px;
+
+}
+
+h3.title.main { 
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  font-weight:600;
+  box-shadow: rgba(54, 249, 15, 0.618) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+
+}
+
+/* #questiosn {
+  border-radius: 20px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  display: flex;
+  width: 100px;
+} */
+
+/* Counter Elements */
+
+/* Center child elements */
+.body,
+.website-counter {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: white;
+}
+
+
+/* Styles for website counter container */
+.website-counter {
+background-color: rgb(234, 115, 36);
+height: 35px;
+width: 65px;
+color: white;
+border-radius: 30px;
+font-weight: 700;
+font-size: 25px;
+margin-top: 10px;
+}
+
+/* Styles for reset button */
+#reset {
+border-radius: 30px;
+margin-top: 20px;
+background-color: #4aa2c0;
+cursor: pointer;
+font-size: 18px;
+padding: 8px 20px;
+color: white;
+border: 0;
+}
+
+button {
+  border: none;
+  background-color: rgb(39, 36, 36);
+  padding: 8px;
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 200;
+  font-weight: 600;
+}
+.bottom-buttons {
+  display: flex;
+  margin-left: -2.3px;
+}

@@ -1,3 +1,12 @@
+body {
+    background-color: rgba(247, 246, 246, 0.795);
+}
+
+#wrapper {
+    background-color: rgba(247, 246, 246, 0.795);
+    transition: 0.8s all;
+  }
+
 #counter {
     display: inline-block;
     font-size: 1.50rem;
@@ -96,7 +105,7 @@ h3.title.main {
 
 /* Styles for website counter container */
 .website-counter {
-  background-color: #ff8049;
+    background-color: rgb(234, 115, 36);
   height: 35px;
   width: 65px;
   color: white;
@@ -117,3 +126,22 @@ h3.title.main {
   color: white;
   border: 0;
 }
+
+button {
+    border: none;
+    background-color: rgb(39, 36, 36);
+    padding: 8px;
+    color: white;
+    margin: 2px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 200;
+    font-weight: 600;
+  }
+  .bottom-buttons {
+    display: flex;
+    margin-left: -2.3px;
+  }
+
