@@ -5,8 +5,8 @@
 
 * I was having trouble finding free online study guide to ISM aka Info Systems. So I created this timed quiz
 
-1. Click the start button & choose bewteen light and dark modes! 
-2. A timer starts and I am presented with a question
+1. Click the start button & you choose bewteen light and dark modes! 
+2. A timer starts and quiz begins with questions
 3. Answers add time or take away time
 4. 50 questions total, reach the end. 
 5. View Highscores
@@ -28,8 +28,10 @@ JAVASCRIPT
  7. Comments were also applied in pseudo code
  8. Created branches to add, commit, push and merge to git hub
 
-<img width="1440" alt="Screen Shot 2021-05-16 at 11 26 38 PM" src="https://user-images.githubusercontent.com/81955843/118441773-848f3d80-b69e-11eb-8690-bea7ac9c00c7.png">
+<img width="1440" alt="Screen Shot 2023-01-08 at 3 31 43 PM" src="https://user-images.githubusercontent.com/81955843/211217833-04934873-54d3-4cfa-af6a-7551c80938a8.png">
 
-<img width="1440" alt="Screen Shot 2021-05-16 at 11 27 42 PM" src="https://user-images.githubusercontent.com/81955843/118441786-878a2e00-b69e-11eb-8014-57b844e92d3f.png">
+<img width="1440" alt="Screen Shot 2023-01-08 at 3 32 22 PM" src="https://user-images.githubusercontent.com/81955843/211217842-10f3ad27-ccb4-4e56-93e1-d99f8857e011.png">
 
-<img width="1440" alt="Screen Shot 2021-05-16 at 11 27 57 PM" src="https://user-images.githubusercontent.com/81955843/118441793-8953f180-b69e-11eb-995a-072a15a0222a.png">
+<img width="1440" alt="Screen Shot 2023-01-08 at 3 38 09 PM" src="https://user-images.githubusercontent.com/81955843/211217921-4b4e62e1-ba52-4c56-83e7-c46e6fcbfae2.png">'
+
+<img width="1440" alt="Screen Shot 2023-01-08 at 3 33 11 PM" src="https://user-images.githubusercontent.com/81955843/211217933-849b59c1-c3b2-4150-8d41-8431e6b56e65.png">
