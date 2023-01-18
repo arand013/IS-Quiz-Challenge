@@ -1,4 +1,4 @@
-html {
+body {
   background-color: rgb(24, 24, 26);
 }
 #wrapper {
@@ -87,7 +87,7 @@ h3.title.main {
   border: 2px solid #73AD21;
   font-weight:600;
   box-shadow: rgba(54, 249, 15, 0.618) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
+  box-sizing: content-box;
 
 }
 
@@ -153,3 +153,36 @@ button {
   display: flex;
   margin-left: -2.3px;
 }
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER START*/
+@media screen and (max-width: 980px) {
+  #wrapper {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative
+  }
+  h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  h3 {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  body{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+
+h3.title.main, h1.title.main { 
+  width: 90%
+  } 
+}   
+
+
